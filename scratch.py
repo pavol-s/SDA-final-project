@@ -9,17 +9,6 @@ to wynik powinien wynosić '[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]', liczba zagnieżdż
 konkretnej liczby.
 """
 
-# def letter_count(x: str):
-#     all_freq = {}
-#     for i in x:
-#         if i in all_freq:
-#             all_freq[i] += 1
-#         else:
-#             all_freq[i] = 1
-#     return print(max(all_freq, key=all_freq.get))
-#
-# letter_count("The regional capital of Silesian voivodeship is Katowice")
-
 def letter_count(x: str):
     all_freq = {}
     for letter in x:
