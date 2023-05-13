@@ -27,7 +27,8 @@ def letter_count(x: str):
             all_freq[letter] += 1
         else:
             all_freq[letter] = 1
-    print(max(all_freq, key=all_freq.get))
+    max_letter = max(all_freq, key=all_freq.get)
+    print(f"{max_letter}, {all_freq[max_letter]}")
 
 
 letter_count("The regional capital of Silesian voivodeship is Katowice")
